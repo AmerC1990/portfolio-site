@@ -451,7 +451,7 @@ function Contact() {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nBusiness: ${form.business}\n\nMessage:\n${message}`
     );
-    window.location.href = `mailto:amercosovic14@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:cosovic14@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
